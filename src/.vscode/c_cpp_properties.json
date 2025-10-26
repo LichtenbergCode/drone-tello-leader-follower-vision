@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/msquito/vision_cv/install/image_geometry/include/**",
+        "/home/msquito/vision_cv/install/cv_bridge/include/**",
+        "/home/msquito/drone_det_itfc/install/drone_detection_interface/include/**",
+        "/opt/ros/iron/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

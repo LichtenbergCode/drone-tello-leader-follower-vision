@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/msquito/vision_cv/build/opencv_tests",
+        "/home/msquito/vision_cv/install/opencv_tests/lib/python3.11/site-packages",
+        "/home/msquito/vision_cv/install/image_geometry/lib/python3.11/site-packages",
+        "/home/msquito/vision_cv/install/cv_bridge/lib/python3.11/site-packages",
+        "/home/msquito/drone_det_itfc/install/drone_detection_interface/lib/python3.11/site-packages",
+        "/ros2_ws/iron/lib/python3.11/dist-packages",
+        "/opt/ros/iron/lib/python3.11/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/msquito/vision_cv/build/opencv_tests",
+        "/home/msquito/vision_cv/install/opencv_tests/lib/python3.11/site-packages",
+        "/home/msquito/vision_cv/install/image_geometry/lib/python3.11/site-packages",
+        "/home/msquito/vision_cv/install/cv_bridge/lib/python3.11/site-packages",
+        "/home/msquito/drone_det_itfc/install/drone_detection_interface/lib/python3.11/site-packages",
+        "/ros2_ws/iron/lib/python3.11/dist-packages",
+        "/opt/ros/iron/lib/python3.11/site-packages"
+    ]
+}
