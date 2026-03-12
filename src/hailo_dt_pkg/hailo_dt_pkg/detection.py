@@ -35,7 +35,7 @@ class MyGStreamerDetectionApp(GStreamerApp):
         if self.options_menu.arch is None:
             detected_arch = detect_hailo_arch()
             if detected_arch is None:
-                 raise ValueError("No se pudo detectar arquitectura Hailo automáticamente.")
+                raise ValueError("No se pudo detectar arquitectura Hailo automáticamente.")
             self.arch = detected_arch
             print(f"✔ Arquitectura detectada: {self.arch}")
         else:
@@ -43,11 +43,11 @@ class MyGStreamerDetectionApp(GStreamerApp):
         
         # To create the pipeline
         ############################
-        # Rutas de recursos
-        self.hef_path = "/home/msquito/hailo-apps-infra/drone_resources/drone_det.hef"
+        # Resources Paths
+        self.hef_path = "/home/ros/hailo-apps/drone_resources/drone_det.hef"
         self.post_process_so = "/usr/local/hailo/resources/so/libyolo_hailortpp_postprocess.so"
         self.post_function_name = "filter_letterbox"
-        self.labels_json = "/home/msquito/hailo-apps-infra/drone_resources/drone_detection.json"
+        self.labels_json = "/home/ros/hailo-apps/drone_resources/drone_detection.json"
 
         # Fuente de video (stream de Tello en puerto 11111)
         self.video_source = ('udpsrc port=11111 caps="video/x-h264, stream-format=(string)byte-stream, width=(int)640, height=(int)640, framerate=(fraction)24/1, skip-fist-bytes=2" !'\
