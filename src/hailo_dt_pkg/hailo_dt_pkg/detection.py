@@ -44,10 +44,10 @@ class MyGStreamerDetectionApp(GStreamerApp):
         # To create the pipeline
         ############################
         # Resources Paths
-        self.hef_path = "/home/ros/hailo-apps/drone_resources/drone_det.hef"
+        self.hef_path = "/home/ros/hailo-rpi5-examples/drone_resources/drone_det.hef"
         self.post_process_so = "/usr/local/hailo/resources/so/libyolo_hailortpp_postprocess.so"
         self.post_function_name = "filter_letterbox"
-        self.labels_json = "/home/ros/hailo-apps/drone_resources/drone_detection.json"
+        self.labels_json = "/home/ros/hailo-rpi5-examples/drone_resources/drone_detection.json"
 
         # Fuente de video (stream de Tello en puerto 11111)
         self.video_source = ('udpsrc port=11111 caps="video/x-h264, stream-format=(string)byte-stream, width=(int)640, height=(int)640, framerate=(fraction)24/1, skip-fist-bytes=2" !'\
